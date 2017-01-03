@@ -1,0 +1,39 @@
+{
+  "name": "videojs-flvjs.js",
+  "version": "0.0.1",
+  "description": "flv.js plugin for videojs",
+  "main": "/dist/videojs-flvjs.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "flv.js": "^1.1.0",
+    "video.js": "^5.11.9",
+    "videojs-contrib-media-sources": "^4.0.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/securogroup/videojs-flvjs.git"
+  },
+  "keywords": [
+    "flvjs",
+    "flv.js",
+    "videojs",
+    "video.js",
+    "securogroup"
+  ],
+  "author": "SecuroGroup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/securogroup/videojs-flvjs/issues"
+  },
+  "homepage": "https://github.com/securogroup/videojs-flvjs#readme"
+}
