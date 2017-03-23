@@ -1,4 +1,6 @@
 # FLV plugin for video.js using flv.js
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/securogroup/videojs-flvjs.svg)](https://greenkeeper.io/)
 Plays FLV with [video.js](https://github.com/videojs/video.js) by transmuxing FLV (either live or VoD) to MP4 and using MSE, using [Bilibili's flv.js](https://github.com/Bilibili/flv.js) tech. 
 
 This plugin adds a source handler for flv files, as well as HTTP/Websockets for streaming live FLV streams. For more information, have a look below at the options
