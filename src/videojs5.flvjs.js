@@ -155,6 +155,6 @@
 
     // only attach this source handler is its supported
     if (flvjs.isSupported()) {
-        videojs.getComponent('Html5').registerSourceHandler(FlvSourceHandler, 0);
+        videojs.getTech('Html5').registerSourceHandler(FlvSourceHandler, 0);
     }
 })(window.videojs, window.flvjs);
